@@ -150,26 +150,142 @@ main {
         flex-direction: column;
         align-items: center;
         margin: auto;      
-        height:120px;
         justify-content: space-evenly;
-           
+        height:130px;   
 
         h2{
         font-size: 40px;
         font-weight: 400;
         font-weight: bold;
-        color: #16A34A;               
+        color: #16A34A;
+                   
                 
         }
         
             p{
-                font-size: 16px;
+                font-size: 18px;
                 font-weight: 400;
                 color: #4B5563;
                 
                 
             }
     }
+    }
+
+    .funcionamento{
+        padding: 60px 140px 80px 140px;
+        display: flex;
+        background-color: #FFFFFF;
+        flex-direction: column;
+        
+          h2{
+                font-size: 40px;
+                font-weight: 700;
+                font-weight: bold;
+                color: #1F2937; 
+                height: 100%;              
+                
+            }
+
+            h3{
+                font-family: "Inter";
+                font-size: 25px;
+                font-weight: 400;
+                color: #1F2937;
+                height: 150%;
+                margin-top: 22px;                
+            }
+
+        .how-function{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto;
+            height: 200px;           
+
+                    
+        }
+
+          .card{
+                padding: 40px 20px 0 30px;
+                display: flex;                
+                flex-direction: column;
+                background-color: #F3F5F8 ;
+                border-radius: 8px;
+                justify-content: left;
+                ;
+
+                .circulo-topico{
+                    width: 52px;
+                    height: 52px;                    
+                    border-radius: 50%;
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .circulo-subtopico{
+                        width: 32px;
+                        height: 32px;
+                        border-radius: 50%;
+
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                
+                p{
+                    font-size: 16px;
+                    font-family: "Poppins";
+                                        
+                    
+                }
+
+                .donation{
+                    display: flex;
+                    
+                    
+                   h3{
+                    margin: 10px;
+                    color: #16A34A;
+                   }
+                   
+                   .circulo-topico{
+                        background-color: #DCFCE7;
+                   }     
+                    
+                   p{
+                        margin-top: 38px;
+                   }
+
+                }             
+                       
+                        
+                    
+
+                .subtopico{
+                    display: flex;
+                    flex-direction: column;
+
+                    .circulo-subtopico{
+                        background-color: #16A34A;
+                    }
+
+                    p{
+                       color: #09090B; 
+                    }        
+                    
+                 }
+                
+                    
+                
+
+                
+
+
+            }
+
     }
 
 }
