@@ -15,9 +15,7 @@ button {
     border: none;
 }
 
-body {
-    padding: 40px 50px 16px 50px;
-}
+
 
 header {
     display: flex;
@@ -25,6 +23,7 @@ header {
     justify-content: space-between;
     align-items: end;
     border-bottom: 1px solid #B4AEAE;
+    padding: 40px 50px 16px 50px;
 
     button {
         height: 60px;
@@ -32,6 +31,8 @@ header {
         color: #FFFFFF;
         border-radius: 6px;
         background-color: #21C05C;
+        font-size: 16px;
+        
     }
 }
 
@@ -39,8 +40,8 @@ header {
     display: flex;
     align-items: center;
     gap: 0 4px;
-    margin-bottom: 38px;
-
+    margin-bottom: 8px;
+    
     span {
         font-size: 32px;
         font-weight: 700;
@@ -50,11 +51,125 @@ header {
 .menu-list {
     display: flex;
     gap: 0 32px;
+    margin-bottom: 17px;
     
-
     li a{
     font-size: 16px;
+    font-weight: 400;
     color: #4B5563;
     }
 }
 
+main {
+    display: flex;
+    
+
+    .intro {
+        
+        padding: 40px 50px 16px 50px;
+
+        h2{
+            font-size: 58px;
+            font-weight: 400;
+            font-weight: bold;
+            margin-bottom: 20px;
+
+        }
+
+        h4 {
+            font-size: 24px;
+            font-weight: 400;
+            font-family: "Inter";
+            margin-bottom: 55px;
+        }
+
+         
+    }
+
+    .buttons {
+        display: flex;
+        gap: 0 42px;
+        justify-content: center;
+        
+        
+        
+        
+        li a{
+            font-size: 16px;
+            font-weight: 400;
+            
+            
+        }
+
+        span {
+        font-size: 16px;
+        font-weight: 400;
+        margin-right: 10px;
+        
+        
+        }
+
+       
+
+        button {
+        height: 60px;
+        padding-inline: 30px;
+        color: #FFFFFF;
+        border-radius: 6px;
+        background-color: #21C05C;
+        font-size: 16px;
+        
+        
+        }
+
+        .adquirir {
+            height: 60px;
+            color: #2563EB;
+            
+            background-color: #FFFFFF;
+            border-color: #2563EB;
+            border-style: solid;
+            border-width: 1px;
+            
+            
+                                    
+                        
+        }
+
+   
+               
+
+    }
+
+    .estatistica {
+        display: flex;
+        background-color: #F3F5F8;
+
+    .dados {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;      
+        height:120px;
+        justify-content: space-evenly;
+           
+
+        h2{
+        font-size: 40px;
+        font-weight: 400;
+        font-weight: bold;
+        color: #16A34A;               
+                
+        }
+        
+            p{
+                font-size: 16px;
+                font-weight: 400;
+                color: #4B5563;
+                
+                
+            }
+    }
+    }
+
+}
