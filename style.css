@@ -206,19 +206,21 @@ main {
                     
         }
 
-          .card{
-                padding: 40px 20px 0 30px;
+          .card{                
                 display: flex;                
                 flex-direction: column;
                 background-color: #F3F5F8 ;
-                border-radius: 8px;
-                justify-content: left;
-                ;
+                border-radius: 8px;                
+                justify-content: space-evenly;
+                padding: 40px 20px 0 30px;                
+
+                
 
                 .circulo-topico{
                     width: 52px;
                     height: 52px;                    
                     border-radius: 50%;
+                    
 
                     display: flex;
                     justify-content: center;
@@ -233,12 +235,15 @@ main {
                         display: flex;
                         justify-content: center;
                         align-items: center;
+
+                        color: #FFFFFF;
+                        
                     }
                 
                 p{
-                    font-size: 16px;
-                    font-family: "Poppins";
-                                        
+                    font-size: 16px;                                                                                                 
+                    padding: 40px 0 40px 0;                                                                              
+                                                                                                 
                     
                 }
 
@@ -251,13 +256,13 @@ main {
                     color: #16A34A;
                    }
                    
+                   
                    .circulo-topico{
                         background-color: #DCFCE7;
-                   }     
-                    
-                   p{
-                        margin-top: 38px;
                    }
+
+                    
+                   
 
                 }             
                        
@@ -266,17 +271,38 @@ main {
 
                 .subtopico{
                     display: flex;
-                    flex-direction: column;
+                    flex-direction: row;                    
+                    
+                
 
                     .circulo-subtopico{
                         background-color: #16A34A;
+                        
                     }
 
+                    .text{
+                        display: flex;
+                        flex-direction: column;
+
+
+                        h4{
+                    font-size: 16px;
+                    font-weight: bold;
+                    padding: 0 0 0 12px;
+                
+                   }
+
                     p{
-                       color: #09090B; 
-                    }        
+                       color: #09090B;
+                       padding: 0 0 40px 12px; 
+                    }
+                    }
+
+                            
                     
-                 }
+                }
+                
+                   
                 
                     
                 
@@ -286,6 +312,19 @@ main {
 
             }
 
+
+          
+                
+
+                
+                    
+                
+
+                
+
+
+        }  
+
     }
 
-}
+
