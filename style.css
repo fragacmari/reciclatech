@@ -387,8 +387,7 @@ button {
         margin-bottom: 18px;
     }     
     .people-comment{
-        padding: 24px 52px 24px 32px;
-        
+        padding: 24px 52px 24px 32px;        
     }
 
 .who{
@@ -431,6 +430,38 @@ button {
         .subtitle{
             color: #9CA3AF;
         }
-
 }
+
+.join{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #F3F5F8;
+    padding: 78px 56px 78px 56px;
+    width: 775px;
+    justify-content: space-between;
+    gap: 50px;
+
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    h3{
+        font-size: 25px;
+        font-weight: 400;
+        height: 150%;
+    }
+
+    .know{
+        color: #16A34A;            
+        background-color: #F3F5F8;
+        border-color: #16A34A;
+        border-style: solid;
+        border-width: 1px;
+        margin-left: 16px;
+    }
+}
+
 }
