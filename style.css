@@ -226,6 +226,7 @@ main {
             
             .purchase{
                 display: flex;
+                
                     
                 h3{
                     margin: 10px;
@@ -267,7 +268,169 @@ main {
             }
         }  
     }
+.produtos{
+    display: flex;
+    flex-direction: column;
+    padding: 76px 0 70px 0;
+    background-color: #F3F5F8;    
+    align-items: center;
+    width: 775px;
+    
+
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+        font-weight: bold;
+        color: #1F2937; 
+        height: 100%;    
+    }
+
+    h3{
+        font-family: "Inter";
+        font-size: 25px;
+        font-weight: 400;
+        color: #4B5563;
+        height: 150%;
+        margin-top: 16px;                              
+    } 
+
+    p{
+        font-size: 16px;
+    }
 }
+.produtos-disponiveis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+         
+}
+.product-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    background-color: #FFFFFF ;
+    border-radius: 8px;
+    border: 2px solid #16A34A;
+                
+    
+    margin: 70px;    
+    
+    width: 290px;
+    
+    img{
+        width: 286px;
+        height: 232px;
+    }
+    p{
+        text-align: center;
+        max-width: 222px;
+        
+    }
+    
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-block: 20px 34px;
+    }
+}
+button {
+        height: 40px;
+        padding-inline: 30px;
+        color: #FFFFFF;
+        border-radius: 6px;
+        background-color: #21C05C;
+        font-size: 16px;               
+        }
 
+.comments{
+    display: flex;
+    flex-direction: column;
+    padding: 45px 0 108px 0;
+    align-items: center;
+    width: 775px;
+    background-color: #FFFFFF;
+    text-align: center;
+    
 
+    
+}
+.comment-title{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 78px;
 
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    h3{
+        font-size: 25px;
+        font-weight: 400;
+        height: 150%;
+    }
+}
+.comment-card{
+    display: flex;
+    flex-direction: column;    
+    text-align: justify;
+    background-color: #FFFFFF;
+    border: 1px solid #9CA3AF;
+    border-left-width: 4px;
+    border-radius: 8px;
+    margin: 50px;
+    width: 338px;
+   
+    img{
+        margin-bottom: 18px;
+    }     
+    .people-comment{
+        padding: 24px 52px 24px 32px;
+        
+    }
+
+.who{
+    display: flex;
+    flex-direction: row;
+    
+}    
+    .avatar{
+        width: 40px;               
+        height: 40px;
+        border-radius: 50%;
+        background-color: #DCFCE7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    .avatar-blue{
+        background-color: #DBEAFE;
+    }
+
+    .avatar-green{
+        background-color: #16A34A;
+    }
+
+    .name{
+        display: flex;
+        flex-direction: column;
+        padding: 4px 0 36px 12px;    
+        }
+    
+        h5{
+            font-size: 14px;
+            font-family: "Inter";
+            font-weight: 400;
+            color: #09090B;
+        }
+        
+        .subtitle{
+            color: #9CA3AF;
+        }
+
+}
+}
