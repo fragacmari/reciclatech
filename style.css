@@ -464,4 +464,142 @@ button {
     }
 }
 
+
+
+}
+
+footer{
+    background-color: #1F2937;
+    color: #9CA3AF;    
+    padding: 60px 0;
+    position: relative;
+    bottom: 0;
+    width: 775px;
+
+    h2{
+    font-size: 22px;
+    color: #FFFFFF;
+    
+}
+p{
+    font-size: 16px;
+}
+
+}
+
+
+.rodape{
+    display: flex;
+    flex-direction: column;   
+    
+}
+
+.titulo-rodape{
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 4px;
+
+    h2{
+        margin-left: 8px;
+    }
+    p{
+        margin: 4px 4px 0 8px;
+        
+    }
+    svg{
+    margin-top: 4px;
+        
+    }
+
+}
+
+.links-rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 65px 94px 0 94px;
+
+    .titulo{
+        font-weight: 700;
+        color: #FFFFFF;
+        margin-bottom: 11px;
+    }
+}
+
+.links-rapidos{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 8px;
+
+}
+
+.suporte{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 8px;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 168px;
+    gap: 8px;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 16px;
+    margin-top: 10px;
+
+    p{
+        font-family: "Inter";
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+
+}
+
+.facebook{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: #2563EB;
+    padding: 7px 13px;
+    
+}
+.twitter{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: #1DA1F2;
+    text-align: center;
+    padding: 7px 13px;
+}
+.instagram{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: #E1306C;
+    padding: 5px 8px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    text-align: center;   
+    margin-top: 33px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 38px;
+    font-size: 14px;
+    border-top: 1px solid #4B5563;
+    
 }
